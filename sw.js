@@ -1,13 +1,13 @@
-// Nome do cache
-const cachePWA = 'cache-v1';
+// Nome do cache (controle de versão)
+const cachePWA = 'cache-v1'
 // Arquivos a serem armazenados em cache
-// Todos os arquivos devem ser adicionados ao vetor (exceto manifesto)
+// Todos os arquivos devem ser adicionados ao vetor(exceto o manifesto)
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/calculo.js',  
-  '/foto.png',
-  '/foto2.png'
+    '/',
+    '/index.html',
+    '/calculo.js',  
+    '/foto.png',
+    '/foto2.png'
 ]
 
 // Instalando o Service Worker e armazenando os arquivos no cache
@@ -34,19 +34,3 @@ self.addEventListener('fetch', (event) => {
       })
   )
 })
-
-
-self.addEventListener('activate', (event) => {
-    event.waitUntil(
-      caches.keys()
-       .then((cacheNames) => {
-          return Promise.all(
-            cacheNames.map((cacheName) => {
-              if (cacheName!== cachePWA) {
-                return caches.delete(cacheName);
-              }
-            })
-          );
-        })
-    );
-  });
