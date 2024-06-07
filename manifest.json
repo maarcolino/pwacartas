@@ -1,9 +1,9 @@
 {
   "name": "app de cartas",
   "short_name": "PWACARTAS",
-  "start_url": "/pwacartas",
+  "start_url": "/pwacartas/",
   "display": "standalone",
-  "scope": "/pwacartas",
+  "scope": "/pwacartas/",
 
   "icons": [
     {
