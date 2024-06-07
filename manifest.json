@@ -1,6 +1,6 @@
 {
   "name": "app de cartas",
-  "short_name": "PWA CARTAS",
+  "short_name": "PWACARTAS",
   "start_url": "/pwacartas/",
   "display": "standalone",
 
