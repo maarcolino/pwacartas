@@ -1,0 +1,20 @@
+{
+  "name": "Web app",
+  "short_name": "PWA",
+  "start_url": "/carta-jogadores/",
+  "display": "standalone",
+
+
+  "icons": [
+    {
+      "src": "foto.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "foto2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
