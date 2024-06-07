@@ -5,7 +5,6 @@ const cachePWA = 'cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',
-  '/sw.js',
   '/calculo.js',  
   '/foto.png',
   '/foto2.png'
