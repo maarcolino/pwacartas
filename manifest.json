@@ -1,7 +1,7 @@
 {
-  "name": "Web app",
-  "short_name": "PWA",
-  "start_url": "/carta-jogadores/",
+  "name": "app de cartas",
+  "short_name": "PWA CARTAS",
+  "start_url": "/pwacartas/",
   "display": "standalone",
 
 
