@@ -3,7 +3,7 @@
   "short_name": "PWACARTAS",
   "start_url": "/pwacartas/",
   "display": "standalone",
-
+  "scope": "/pwacartas",
 
   "icons": [
     {
