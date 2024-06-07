@@ -1,9 +1,11 @@
 {
 	"folders": [
 		{
+			"name": "pwacartas",
 			"path": "."
 		},
 		{
+			"name": "img",
 			"path": "../../Desktop/carta jogadores/img"
 		}
 	],
